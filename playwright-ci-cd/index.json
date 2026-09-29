@@ -1,0 +1,47 @@
+{
+  "title": "CI/CD: Automating Playwright with GitHub Actions",
+  "description": "Module 6 of Playwright Fundamentals — inspect a real GitHub Actions workflow for Playwright, lint it, replay every one of its steps locally by hand, and understand exactly what ships to CI.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Set up the project",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Inspect the workflow file",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Lint the YAML",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Replay the CI recipe locally",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "The artifact, and what's left to go live",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "playwright.yml", "target": "/root/pw-lab/.github/workflows", "chmod": "+w"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

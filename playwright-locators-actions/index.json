@@ -1,0 +1,42 @@
+{
+  "title": "Locators & Actions: Writing Tests From Scratch",
+  "description": "Module 2 of Playwright Fundamentals — write a test with no recorder, using getByRole/getByText/getByLabel, chaining and filtering locators, core actions, and web-first assertions.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Set up Node, the project, and Chromium",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "getByRole, getByLabel, getByText",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Chain and filter locators",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Actions: hover, click, delete",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Web-first assertions and the full run",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
