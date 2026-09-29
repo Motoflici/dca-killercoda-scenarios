@@ -1,0 +1,37 @@
+{
+  "title": "DCA: Security — Content Trust & Image Scanning",
+  "description": "Inspect the Engine's default security posture, explore Docker Content Trust, and run an image vulnerability scan with Docker Scout.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Inspect the default security posture",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Explore Docker Content Trust",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Install Docker Scout and run a quickview",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Scan for critical/high CVEs and compare base images",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

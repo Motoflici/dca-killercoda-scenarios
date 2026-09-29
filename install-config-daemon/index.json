@@ -1,0 +1,37 @@
+{
+  "title": "DCA: Installation & Configuration — daemon.json",
+  "description": "Inspect docker info, edit /etc/docker/daemon.json (logging + storage driver), restart the daemon, and verify the change took effect.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Inspect the current engine configuration",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Edit daemon.json",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Restart the daemon",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Verify the change took effect",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
