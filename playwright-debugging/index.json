@@ -1,0 +1,42 @@
+{
+  "title": "Debugging: UI Mode, Traces, and Fixing a Failing Test",
+  "description": "Module 3 of Playwright Fundamentals — write a deliberately broken test, diagnose it with UI mode and the trace viewer served over HTTP, fix it, and confirm green.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Set up the project",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Write (and watch) a broken test",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Diagnose it in UI mode and the trace viewer",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Fix it using what the trace showed",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Re-run to green",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

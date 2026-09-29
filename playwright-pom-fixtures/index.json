@@ -1,0 +1,42 @@
+{
+  "title": "Page Object Model + Custom Fixtures",
+  "description": "Module 4 of Playwright Fundamentals — refactor a flat test file into a Page Object class, wire it up with a custom test.extend fixture, and confirm identical behavior.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Set up the project and a flat baseline",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Run the flat baseline",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Extract a TodoPage class",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Wire it up with a custom fixture",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Rewrite the tests to use the fixture",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

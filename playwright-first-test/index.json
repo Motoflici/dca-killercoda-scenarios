@@ -1,0 +1,37 @@
+{
+  "title": "Playwright: Your First Automated Test",
+  "description": "Module 1 of Playwright Fundamentals — set up Node.js and Playwright on a bare Ubuntu VM, install a real Chromium browser with its system dependencies, and get a codegen-style test running against a live site.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install Node.js",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Create the project and install Playwright + Chromium",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Explore codegen and author the recorded-style test",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Run the test and view the report",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
